@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="assets/js/upload.js"></script>
+
+    <link rel="stylesheet" href="assets/css/contentStyle.css">
+    <script src="https://kit.fontawesome.com/52fae8c8c1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class = 'left'>
+    </div>
+    <div class = 'right'>
+    </div>
+    <div class = 'main'>
+        <div class = 'mainLeft'>
+            <div class= 'mainTop'>
+                <div class= 'mainLogo'>
+                    <i class="fab fa-pushed fa-5x" id='logo'></i>
+                </div>
+                <div class= 'mainPhoto'>
+                    <img id='mainPhoto' src="assets/img/img_avatar.png" alt="Avatar">
+                </div>
+            </div>
+            <div class= 'mainMiddle'>
+                <div class= 'mainEmpty'>
+                </div>
+                <div class= 'Portfolio'>
+                    <div class='PorfolioText'>
+                        <text class="portfolioText">Portfolio</text>
+                    </div>
+                    <div class='PortfolioInput'>
+                        <input class = 'textU' type="text" id="title" name="lname" placeholder = 'Enter Title'><br>
+                        <input class = 'textU' type="text" id="desc" name="lname" placeholder = 'Enter Description'><br>
+                        <input class = 'textU' type="text" id="link" name="lname" placeholder = 'Enter Github Link'><br>
+                    <button  id="addPortfilio" class='addTo'>Add To Porfolio</button>
+                    </div>
+                    <table class="customers">
+                        <thead>
+                            <tr>
+                              <th>Title</th>
+                              <th>Description</th>
+                              <th>Link</th>
+                              <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+
+                            </tr>
+                        </thead>
+                    </table>
+                    <div class='PortfolioOutput'>
+                          <table id="customers" class="costumers">
+                            <tr>
+                                <td>Alfreds Futterkiste</td>
+                                <td>TikTaktoe game written in python</td>
+                                <td>www.github/carlos</td>
+                                <th><button class='deleteBtn'>Delete</button></th>
+                            </tr>
+                            <tr>
+                                <td>Alfreds Futterkiste</td>
+                                <td>Maria Anders</td>
+                                <td>www.github/carlos</td>
+                                <th><button class='deleteBtn'>Delete</button></th>
+                            </tr>
+                            <tr>
+                                <td>Alfreds Futterkiste</td>
+                                <td>Maria Anders</td>
+                                <td>www.github/carlos</td>
+                                <th><button class='deleteBtn'>Delete</button></th>
+                            </tr>
+                            <tr>
+                                <td>Alfreds Futterkiste</td>
+                                <td>Maria Anders</td>
+                                <td>www.github/carlos</td>
+                                <th><button class='deleteBtn'>Delete</button></th>
+                            </tr>
+                            <tr>
+                                <td>Alfreds Futterkiste</td>
+                                <td>Maria Anders</td>
+                                <td>www.github/carlos</td>
+                                <th><button class='deleteBtn'>Delete</button></th>
+                            </tr>
+                          </table>
+                    </div>
+                </div>
+            </div>
+            <div class= 'mainBottom'>
+                <div class= 'mainLogout'>
+                    <button id="logoutBtn">
+                        <i id='logoutLogo' class="fas fa-sign-out-alt fa-3x"></i>
+                    </button>
+                </div>
+                <div class= 'Skill'>
+                    <div class ='skillTwo'>
+                        <text class="skillText">Skills</text>
+                        <text class="skillText">Messages</text>
+                    </div>
+            
+                    <div class ='skillTop'>
+                        <div class ='skillMiddle'>
+                            <div class='SkillInput'>
+                                <div class='skillUp'>
+                                    <input class = 'skillEnterType' type="text" id="skillType" name="enterSkillType" placeholder = 'Enter Skill Type'><br>
+                                    <input class = 'skillEnter' type="text" id="skillSkill" name="enterSkill" placeholder = 'Enter Skills'><br>
+                                    <button id="addSkillBtn" class='addToSkill'>Add To Skills</button>
+                                </div>
+                                <div class='skillDown'>
+                                    <div class="listbox-area">
+                                    <div id="leftDiv" class="left-area">
+                                        <div class='skillOverall'>
+                                            <span id="ss_elem">
+                                            Programming Language
+                                            <button class='deleteBtnTwo'>Delete</button>
+                                            </span>
+                                            <ul id="ss_elem_list"
+                                                tabindex="0"
+                                                role="listbox"
+                                                aria-labelledby="ss_elem">
+                                            <li id="ss_elem_Np" role="option">
+                                                Python
+                                                <button class='deleteBtnTwo'>Delete</button>
+                                            </li>
+                                            <li id="ss_elem_Pu" role="option">
+                                                Javascript
+                                                <button class='deleteBtnTwo'>Delete</button>
+                                            </li>
+                                            <li id="ss_elem_Am" role="option">
+                                                React Native
+                                                <button class='deleteBtnTwo'>Delete</button>
+                                            </li>
+                                            <li id="ss_elem_Cm" role="option">
+                                                R
+                                                <button class='deleteBtnTwo'>Delete</button>
+                                            </li>
+                                            <li id="ss_elem_Bk" role="option">
+                                                React 
+                                                <button class='deleteBtnTwo'>Delete</button>
+                                            </li>
+                                            <li id="ss_elem_Cf" role="option">
+                                                Matlab
+                                                <button class='deleteBtnTwo'>Delete</button>
+                                            </li>
+                                            <li id="ss_elem_Es" role="option">
+                                                C
+                                                <button class='deleteBtnTwo'>Delete</button>
+                                            </li>
+                                            <li id="ss_elem_Fm" role="option">
+                                                C++
+                                                <button class='deleteBtnTwo'>Delete</button>
+                                            </li>
+                                            </ul>
+                                        </div>
+                                        <div class='skillOverall'>
+                                            <span id="ss_elem">
+                                            API
+                                            <button class='deleteBtnTwo'>Delete</button>
+                                            </span>
+                                            <ul id="ss_elem_list"
+                                                tabindex="0"
+                                                role="listbox"
+                                                aria-labelledby="ss_elem">
+                                            <li id="ss_elem_Np" role="option">
+                                                Revenuecat
+                                                <button class='deleteBtnTwo'>Delete</button>
+                                            </li>
+                                            <li id="ss_elem_Pu" role="option">
+                                                Fastlane
+                                                <button class='deleteBtnTwo'>Delete</button>
+                                            </li>
+                                            <li id="ss_elem_Am" role="option">
+                                                Example
+                                                <button class='deleteBtnTwo'>Delete</button>
+                                            </li>
+                                            <li id="ss_elem_Cm" role="option">
+                                                Example
+                                                <button class='deleteBtnTwo'>Delete</button>
+                                            </li>
+                                            <li id="ss_elem_Bk" role="option">
+                                                Example
+                                                <button class='deleteBtnTwo'>Delete</button>
+                                            </li>
+                                            <li id="ss_elem_Cf" role="option">
+                                                Example
+                                                <button class='deleteBtnTwo'>Delete</button>
+                                            </li>
+                                            <li id="ss_elem_Es" role="option">
+                                                Example
+                                                <button class='deleteBtnTwo'>Delete</button>
+                                            </li>
+                                            <li id="ss_elem_Fm" role="option">
+                                                Example
+                                                <button class='deleteBtnTwo'>Delete</button>
+                                            </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div id="msgHolder" class ='skillBottom'>
+                            <div class="container">
+                                <span class="nameComent">Sarah Corner</span>
+                                <p>Hey, nice job really like your stuff</p>
+                                <span class="userComent">sarahc@email.arizona.edu</span>
+                            </div>
+                            <div class="container">
+                                <span class="nameComent">Sarah Corner</span>
+                                <p>Hey, nice job really like your stuff</p>
+                                <span class="userComent">sarahc@email.arizona.edu</span>
+                            </div>
+                            <div class="container">
+                                <span class="nameComent">Sarah Corner</span>
+                                <p>Hey, nice job really like your stuff</p>
+                                <span class="userComent">sarahc@email.arizona.edu</span>
+                            </div>
+                            <div class="container">
+                                <span class="nameComent">Sarah Corner</span>
+                                <p>Hey, nice job really like your stuff</p>
+                                <span class="userComent">sarahc@email.arizona.edu</span>
+                            </div>
+                            <div class="container">
+                                <span class="nameComent">Sarah Corner</span>
+                                <p>Hey, nice job really like your stuff</p>
+                                <span class="userComent">sarahc@email.arizona.edu</span>
+                            </div>
+                            <div class="container">
+                                <span class="nameComent">Sarah Corner</span>
+                                <p>Hey, nice job really like your stuff</p>
+                                <span class="userComent">sarahc@email.arizona.edu</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,117 @@
+html{
+    background-color: white;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: rgb(237,180,171);
+    display: flex;
+
+}
+
+.main{
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex: 1;
+    margin: 5%;
+    flex-direction: column;
+}
+
+.title{
+    display: flex;
+    flex: 1;
+    
+}
+
+.subtitle{
+    display: flex;
+    flex: 1;
+    
+}
+
+
+.cards{
+    display: flex;
+    flex: 3.6;
+ 
+}
+
+.cardsOne{
+    display: flex;
+    flex: 1;
+    background-color: rgba(144,222,215,255);
+    margin: 3%;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.cardsTwo{
+    display: flex;
+    flex: 1;
+    background-color: rgba(249,203,102,255);
+    margin: 3%;
+    border-radius: 10px;
+    flex-direction: column;
+}
+.cardsThree{
+    display: flex;
+    flex: 1;
+    background-color: rgba(197,55,86,255);
+    margin: 3%;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.pic{
+    display: flex;
+    flex: 2;
+    background-color: rgba(0, 0, 0, 0.098);
+    border-radius: 10px;
+}
+
+.click{
+    display: flex;
+    flex: 1;
+ 
+}
+
+.link{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    margin-left: 10%;
+    margin-top: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titleSub{
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    border-bottom: 7px solid #000;
+    padding-bottom: 20px;
+
+
+}
+
+.subtitleSub{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(157,166,173,255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+.img {
+    height: 100%; 
+    width: 100%;
+    object-fit: contain;
+    
+    
+}

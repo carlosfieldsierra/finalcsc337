@@ -1,0 +1,130 @@
+html,
+body {
+  min-height: 100vh;
+  background-color: rgba(242, 246, 255, 255);
+  display: flex;
+  flex-direction: column;
+}
+.top {
+  display: flex;
+  flex: 1;
+  background-color: rgba(242, 246, 255, 255);
+  flex-direction: row;
+  align-self: center;
+}
+.middle {
+  display: flex;
+  flex: 1;
+  background-color: white;
+  min-width: 500px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 7px;
+  flex-direction: column;
+  box-shadow: 5px 5px 2px 1px rgba(232, 237, 249, 0.316);
+  margin-bottom: 10px;
+}
+
+.Title {
+  display: flex;
+  flex: 1;
+  background-color: white;
+  align-self: center;
+  align-items: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(46, 77, 123, 255);
+}
+
+.SubTitle {
+  display: flex;
+  flex: 1;
+  background-color: white;
+  align-self: center;
+  color: rgba(185, 196, 211, 255);
+}
+
+.Username {
+  display: flex;
+  flex: 1;
+  border: solid 0.5px;
+  border-color: rgb(233, 231, 231);
+  background-color: white;
+  min-width: 400px;
+  max-width: 400px;
+  align-self: center;
+  margin-bottom: 20px;
+  border-radius: 9px;
+  flex-direction: row;
+  max-height: 50px;
+}
+
+.Password {
+  display: flex;
+  flex: 1;
+  border: solid 0.5px;
+  border-color: rgb(233, 231, 231);
+  background-color: white;
+  min-width: 400px;
+  max-width: 400px;
+  align-self: center;
+  margin-bottom: 20px;
+  border-radius: 9px;
+  max-height: 50px;
+  flex-direction: row;
+}
+
+.SignInBtn {
+  display: flex;
+  flex: 1;
+  background-color: rgba(38, 127, 255, 255);
+  min-width: 400px;
+  max-width: 400px;
+  align-self: center;
+  align-items: center;
+  margin-bottom: 30px;
+  border-radius: 9px;
+  max-height: 50px;
+  border-color: rgba(255, 255, 255, 0.433);
+  color: white;
+  flex-direction: row;
+}
+
+.bottom {
+  display: flex;
+  flex: 1;
+  background-color: rgba(242, 246, 255, 255);
+}
+
+.textU {
+  border-color: rgba(255, 255, 255, 0);
+  margin-left: 12px;
+  width: 350px;
+}
+
+.textP {
+  border-color: rgba(255, 255, 255, 0);
+  margin-left: 12px;
+  width: 350px;
+}
+
+i {
+  color: rgba(38, 127, 255, 255);
+  margin-left: 20px;
+  align-self: center;
+}
+
+h2 {
+  align-self: center;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  align-content: center;
+  font-weight: lighter;
+  margin-left: 42%;
+}
+#logo {
+  color: rgba(38, 127, 255, 255);
+  margin-bottom: -80px;
+}

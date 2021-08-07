@@ -1,0 +1,530 @@
+html,
+body {
+  min-height: 100%;
+  min-width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-left: -10px;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  margin-right: 10px;
+  background-color: rgba(183, 182, 183, 255);
+  padding-bottom: 500px;
+}
+.left {
+  display: flex;
+  flex: 2;
+  background-color: rgba(197, 196, 196, 255);
+}
+.right {
+  display: flex;
+  flex: 1;
+  background-color: rgba(183, 182, 183, 255);
+}
+
+.main {
+  position: absolute;
+  width: 90%;
+  height: 80%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: rgba(183, 182, 183, 255);
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px 1px rgba(131, 129, 129, 0.296);
+  display: flex;
+  flex-direction: row;
+}
+
+.mainLeft {
+  display: flex;
+  flex: 2;
+
+  height: 100%;
+  align-self: center;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  flex-direction: column;
+}
+
+.mainTop {
+  display: flex;
+  flex: 1;
+}
+
+.mainMiddle {
+  display: flex;
+  flex: 2.7;
+  background-color: white;
+}
+
+.mainBottom {
+  display: flex;
+  flex: 2.7;
+  background-color: white;
+
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.mainLogo {
+  display: flex;
+  flex: 0.2;
+  background-color: white;
+  border-top-left-radius: 20px;
+  border-right: solid 1px;
+  border-right-color: rgba(197, 196, 196, 255);
+}
+.mainPhoto {
+  display: flex;
+  flex: 1;
+  background-color: white;
+  border-top-right-radius: 20px;
+}
+
+#mainPhoto {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-left: 85%;
+}
+
+.mainLogout {
+  display: flex;
+  flex: 0.2;
+}
+
+.Skill {
+  border-left: solid 1px;
+  border-color: rgba(197, 196, 196, 255);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.mainEmpty {
+  display: flex;
+  flex: 0.2;
+
+  min-width: 136px;
+  border-right: solid 1px;
+  border-color: rgba(197, 196, 196, 255);
+}
+
+.Portfolio {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.addTo {
+  align-self: center;
+  color: rgba(38, 127, 255, 255);
+  background-color: rgba(220, 20, 60, 0);
+  border-color: rgba(38, 127, 255, 255);
+  border-radius: 10px;
+  height: 80%;
+  margin-left: 5px;
+}
+
+.addToSkill {
+  align-self: center;
+  color: rgba(38, 127, 255, 255);
+  background-color: rgba(220, 20, 60, 0);
+  border-color: rgba(38, 127, 255, 255);
+  border-radius: 10px;
+  height: 90%;
+  margin-left: 5px;
+}
+
+.addTo:hover {
+  background-color: rgb(8, 247, 8);
+}
+
+.PortfolioInput {
+  display: flex;
+  flex: 1;
+  background-color: white;
+  min-width: max-content;
+  margin-bottom: 10px;
+  border-top: solid 1px;
+  border-color: rgba(197, 196, 196, 0);
+}
+
+.customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  color: black;
+  background-color: white;
+}
+
+.textU {
+  margin-left: 5px;
+}
+
+.portfolioText {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  align-self: center;
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+.customer:right {
+  color: blueviolet;
+  background-color: burlywood;
+}
+
+.PorfolioText {
+  display: flex;
+  flex: 1;
+}
+
+.PortfolioOutput {
+  display: flex;
+  flex: 4;
+  overflow: auto;
+  flex-direction: column;
+}
+
+#logo {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  color: rgba(38, 127, 255, 255);
+  margin-top: 30px;
+}
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  color: black;
+  background-color: white;
+  height: 100%;
+}
+
+#customers td,
+#customers th {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  color: black;
+}
+
+.deleteBtn {
+  background-color: rgba(38, 127, 255, 255);
+  border-color: white;
+  color: white;
+  border-radius: 5px;
+}
+
+.deleteBtn:hover {
+  background-color: red;
+}
+
+.skillTop {
+  display: flex;
+  flex: 5;
+
+  border-bottom-right-radius: 20px;
+}
+
+.skillMiddle {
+  display: flex;
+  flex: 1;
+  background-color: white;
+}
+
+.skillBottom {
+  display: flex;
+  flex: 1;
+  overflow-y: auto;
+  height: 500px;
+  border-bottom-right-radius: 20px;
+  flex-direction: column;
+}
+
+.skillText {
+  margin-top: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  margin-left: 15px;
+  font-size: 20px;
+  flex: 1;
+  display: flex;
+}
+
+.skillTwo {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.SkillInput {
+  display: flex;
+  flex: 1;
+  background-color: white;
+  min-width: max-content;
+  margin-bottom: 10px;
+  border-top: solid 1px;
+  border-color: rgba(197, 196, 196, 0);
+  flex-direction: column;
+}
+
+.skillUp {
+  display: flex;
+  flex-direction: row;
+}
+
+.annotate {
+  font-style: italic;
+  color: #366ed4;
+}
+
+.listbox-area {
+  padding: 20px;
+  background-color: white;
+  border: 1px solid white;
+  font-size: 0;
+}
+
+.left-area,
+.right-area {
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 14px;
+  vertical-align: top;
+  width: 50%;
+  background-color: white;
+}
+
+.left-area {
+  padding-right: 10px;
+  background-color: white;
+}
+
+.right-area {
+  padding-left: 10px;
+}
+
+[role="listbox"] {
+  min-height: 5em;
+  padding: 0;
+  background: white;
+  border: 1px solid #aaa;
+}
+
+[role="option"] {
+  display: block;
+  padding: 0 1em 0 1.5em;
+  position: relative;
+  line-height: 1.8em;
+}
+
+[role="option"].focused {
+  background: #bde4ff;
+}
+
+[role="option"][aria-selected="true"]::before {
+  content: "âœ“";
+  position: absolute;
+  left: 0.5em;
+}
+
+button {
+  font-size: 16px;
+}
+
+button[aria-disabled="true"] {
+  opacity: 0.5;
+}
+
+.move-right-btn {
+  padding-right: 20px;
+  position: relative;
+}
+
+.move-right-btn::after {
+  content: " ";
+  height: 10px;
+  width: 12px;
+  background-image: url("../imgs/Arrows-Right-icon.png");
+  background-position: center right;
+  position: absolute;
+  right: 2px;
+  top: 6px;
+}
+
+.move-left-btn {
+  padding-left: 20px;
+  position: relative;
+}
+
+.move-left-btn::after {
+  content: " ";
+  height: 10px;
+  width: 12px;
+  background-image: url("../imgs/Arrows-Left-icon.png");
+  background-position: center left;
+  position: absolute;
+  left: 2px;
+  top: 6px;
+  background-color: white;
+}
+
+#ss_elem_list {
+  max-height: 18em;
+  overflow-y: auto;
+  position: relative;
+  background-color: white;
+}
+
+#exp_button {
+  border-radius: 0;
+  font-size: 16px;
+  text-align: left;
+  padding: 5px 10px;
+  width: 150px;
+  position: relative;
+}
+
+#exp_button::after {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #aaa;
+  content: " ";
+  position: absolute;
+  right: 5px;
+  top: 10px;
+}
+
+#exp_button[aria-expanded="true"]::after {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 0;
+  border-bottom: 8px solid #aaa;
+  content: " ";
+  position: absolute;
+  right: 5px;
+  top: 10px;
+}
+
+#exp_elem_list {
+  border-top: 0;
+  max-height: 10em;
+  overflow-y: auto;
+  position: absolute;
+  margin: 0;
+  width: 148px;
+  background-color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+.toolbar {
+  font-size: 0;
+}
+
+.toolbar-item {
+  border: 1px solid white;
+  background: #ccc;
+}
+
+.toolbar-item[aria-disabled="false"]:focus {
+  background-color: #eee;
+}
+
+.offscreen {
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  font-size: 14px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.deleteBtnTwo {
+  background-color: rgba(38, 127, 255, 255);
+  border-color: white;
+  color: white;
+  border-radius: 5px;
+  float: right;
+}
+
+.deleteBtnTwo:hover {
+  background-color: red;
+}
+
+.skillOverall {
+  flex-direction: row;
+  background-color: white;
+}
+
+.container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Darker chat container */
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+/* Clear floats */
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Style time text */
+.userComent {
+  float: right;
+  color: #aaa;
+}
+
+#logoutLogo {
+  align-self: center;
+  color: rgba(38, 127, 255, 255);
+}
+
+.mainLogout {
+  display: flex;
+  flex-direction: column;
+
+  border-bottom-left-radius: 20px;
+}
+
+.skillDown {
+  overflow-y: auto;
+  height: 500px;
+}

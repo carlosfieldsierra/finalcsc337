@@ -1,0 +1,94 @@
+html,
+body {
+  min-height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+.top {
+  display: flex;
+  flex: 1;
+  background-color: brown;
+}
+.middle {
+  display: flex;
+  flex: 1;
+  background-color: cyan;
+  min-width: 500px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 7px;
+  flex-direction: column;
+}
+
+.Title {
+  display: flex;
+  flex: 1;
+  background-color: darkkhaki;
+  align-self: center;
+  align-items: center;
+}
+
+.SubTitle {
+  display: flex;
+  flex: 1;
+  background-color: pink;
+  align-self: center;
+}
+
+.Username {
+  display: flex;
+  flex: 1;
+  background-color: darkred;
+  min-width: 400px;
+  max-width: 400px;
+  align-self: center;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  flex-direction: row;
+}
+
+.Password {
+  display: flex;
+  flex: 1;
+  background-color: darkseagreen;
+  min-width: 400px;
+  max-width: 400px;
+  align-self: center;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  flex-direction: row;
+}
+
+.SignInBtn {
+  display: flex;
+  flex: 1;
+  background-color: darkslateblue;
+  min-width: 400px;
+  max-width: 400px;
+  align-self: center;
+  align-items: center;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+.bottom {
+  display: flex;
+  flex: 1;
+  background-color: darkgray;
+}
+
+.textU {
+  border-color: rgba(255, 255, 255, 0);
+}
+
+.textP {
+  border-color: rgba(255, 255, 255, 0);
+}
+
+i {
+  color: blue;
+  margin-left: 20px;
+  align-items: ;
+}
